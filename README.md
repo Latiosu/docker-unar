@@ -9,6 +9,7 @@ http://unarchiver.c3.cx/commandline
 ```
 $ docker run --rm \
   --name unar \
+  -u $UID:$UID \
   -v $PWD:/opt/unar \
   matsuno/unar \
   [archive file path(under pwd)]
