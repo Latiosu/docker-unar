@@ -8,10 +8,10 @@ http://unarchiver.c3.cx/commandline
 
 ```
 $ docker run --rm \
-  --name unar \
+  --name docker-unar \
   -u $UID:$UID \
   -v $PWD:/opt/unar \
-  matsuno/unar \
+  matsuno/docker-unar \
   [archive file path(under pwd)]
 ```
 
